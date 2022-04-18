@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="loop.css">
+    <title>loop with js</title>
+    <style id="demo"></style>
+    <script>
+        function travis(fileName) {
+                var path = "./" + fileName + ".mp3"
+                var sound = new Audio(path);
+                sound.play();
+
+            }
+    </script>
+</head>
+<body>
+    <div class="h1-img">
+    <h1>Best Soundboard by Travis Scott</h1>
+    <img src="travis-scott.jpg" alt="just a picture">
+    </div>
+<div class="grid">
+<div class="bnt"><button id="bnt1" onclick="travis('Travis_audio/audio_yeah')">Yeah</button></div><br><br>
+<div class="bnt"><button id="bnt1" onclick="travis('Travis_audio/audio_yeah')">Yeah</button></div><br><br>
+<div class="bnt"><button id="btn1" onclick="travis('./Travis_audio/audio_its-lit')">its lit</button></div><br><br>
+<div class="bnt"><button id="btn1" onclick="travis('./Travis_audio/audio_goddamn')">Goddamn</button></div><br><br>
+<div class="bnt"><button id="btn1" onclick="travis('./Travis_audio/audio_la-flame')">La flame</button></div><br><br>
+<div class="bnt"><button id="btn1" onclick="travis('./Travis_audio/audio_la-flame2')">La flame2</button></div><br><br>
+<div class="bnt"><button id="bnt1" onclick="travis('Travis_audio/audio_bricks')">Bricks</button></div><br><br>
+<div class="bnt"><button id="bnt1" onclick="travis('Travis_audio/audio_ohmygod')">Oh my god</button></div><br><br>
+<div class="bnt"><button id="bnt1" onclick="travis('Travis_audio/audio_one-more-time')">One more time</button></div><br><br>
+<div class="bnt"><button id="bnt1" onclick="travis('Travis_audio/audio_straigh-up')">Straigh-up</button></div>
+</div>
+<footer class="footer">
+    <ul>
+        <li class="git"><a href="https://github.com/IMADWRGH">github.com/crileyy</a></li>
+    </ul>
+</footer>
+</body>
+</html>
